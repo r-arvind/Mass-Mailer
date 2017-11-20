@@ -2,7 +2,7 @@ import sendgrid
 import os
 from sendgrid.helpers.mail import *
 def mail(toemail,subject,body):
-    sg = sendgrid.SendGridAPIClient(apikey='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')
+    sg = sendgrid.SendGridAPIClient(apikey='****API KEY*****')
     list_email = toemail.split(',')
     sender = Email("UMailer@gmail.com")
     content = Content("text/plain", body)
