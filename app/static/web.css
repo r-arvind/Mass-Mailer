@@ -1,0 +1,52 @@
+body{
+    background-color: #1A1515;
+    color:black;
+    text-align: center;
+    background-image: url('mail2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    background-position-y: 11em;
+}
+
+
+h1{
+    font-size: 80px;
+    color:#FF0000;
+
+}
+
+input{
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 2px;
+    height: 35px;
+}
+input:focus {
+    background-color: lightblue;
+
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+textarea{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 2px;
+    height: 70px;
+    width: 235px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+
+

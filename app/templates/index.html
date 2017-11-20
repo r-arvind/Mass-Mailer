@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>U-Mailer</title>
+        <link href="{{url_for('static',filename='web.css')}}" rel = "stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="mainbody">
+        <h1> U-Mailer </h1>
+        <div class="mailbody">
+            <div class="content">
+                <form method="POST" action="/">
+                <input type="toemail" name="toemail" placeholder="Receiver's email"><br>
+                <input type="subject" name="subject" placeholder="Subject"><br>
+                <textarea type="content" name="content" placeholder="Content"></textarea>  <br> 
+                <input type="submit" value="Submit">         
+            </form>
+            </div>
+
+        </div>
+        </div><br>
+    </body>
+</html>
