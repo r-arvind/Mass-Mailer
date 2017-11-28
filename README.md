@@ -1,5 +1,5 @@
 # Mass-Mailer
-A Web based Mass mailer using Python(Flask), HTML/CSS and Sendgrid
+A Web based Mass mailer using Python (Flask), HTML/CSS and Sendgrid
 
 Requirements:
 1. A Sendgrid Account
